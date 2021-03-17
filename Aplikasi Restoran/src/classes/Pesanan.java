@@ -15,10 +15,16 @@ public class Pesanan {
     private int jumlah;
     private String keterangan;
     
-    public Pesanan(Menu menu, int jumlah) { }
+    public Pesanan(Menu menu, int jumlah) { 
     
-    public void setKeterangan(String keterangan) { }
+    }
     
-    public String getKeterangan() { return "" } 
+    public void setKeterangan(String keterangan) {
+    
+    }
+    
+    public String getKeterangan() { 
+        return "";
+    } 
     
 }

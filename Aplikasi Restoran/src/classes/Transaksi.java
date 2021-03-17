@@ -28,11 +28,11 @@ public class Transaksi {
     
     public Pesanan getPesanan() { return null; } 
     
-    public ArrayLIst<Pesanan> getSemuaPesanan() { return null; } 
+    public ArrayList<Pesanan> getSemuaPesanan() { return null; } 
     
     public double hitungTotalBayar() { return 0; } 
     
-    public double hitungKembalian() { return 0; } 
+   public double hitungKembalian() { return 0; } 
     
     public void cetakStruk() { } 
       
