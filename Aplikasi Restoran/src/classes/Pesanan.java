@@ -10,21 +10,26 @@ package classes;
  * @author ASUS
  */
 public class Pesanan {
-    
     private Menu menu;
     private int jumlah;
     private String keterangan;
-    
-    public Pesanan(Menu menu, int jumlah) { 
-    
+
+    public Pesanan (Menu menu, int jumlah) {
+        this.menu = menu;
+        this.jumlah = jumlah;
     }
     
-    public void setKeterangan(String keterangan) {
-    
+    public Menu getMenu () {
+        return this.menu;
     }
     
-    public String getKeterangan() { 
-        return "";
-    } 
+    public int getJumlah () {
+        return this.jumlah;
+    }
+  
+    public void setKeterangan (String keterangan) {}
     
+    public String getKeterangan () {
+        return this.keterangan;
+    }
 }
